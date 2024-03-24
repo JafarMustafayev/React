@@ -60,16 +60,13 @@ const Register = () => {
               </div>
 
               <button type="submit" className="btn ">
-                Submit
+                Register
               </button>
             </form>
 
             <div>
               <Link className="authLinks" to="/login">
                 Login
-              </Link>
-              <Link className="authLinks" to="/forgotPassword">
-                Forgot Password
               </Link>
             </div>
           </div>
