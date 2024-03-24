@@ -1,0 +1,128 @@
+/* =========================== 
+    Auth Styles
+   =========================== 
+*/
+.authContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  background-image: url("https://images.unsplash.com/photo-1463288889890-a56b2853c40f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.authCard {
+  background-color: #f5f5f542;
+}
+
+.authForm {
+  width: 80%;
+  margin: auto;
+}
+
+.authLinks {
+  display: inline-block;
+  margin-right: 20px;
+  color: #000000;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.authForm h2 {
+  margin-bottom: 20px;
+  color: #53859f;
+}
+
+.authForm form input {
+  margin-top: 3px;
+  width: 100%;
+  padding: 10px;
+
+  border: 1px solid #3d708f93;
+  border-radius: 5px;
+}
+
+.authInputDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authForm form input:focus {
+  border: 2px solid #3d708f;
+  outline: none;
+}
+
+.authForm form button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  color: #3d708f;
+  font-weight: bold;
+  border: 2px solid #3d708f;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.authForm form button:hover {
+  background-color: #3d708f;
+  border: 2px solid #ffffff;
+}
+
+/* =========================== 
+    Login Styles
+   =========================== 
+*/
+
+.loginCard {
+  height: 55%;
+  width: 20%;
+
+  @media screen and (max-width: 768px) {
+    height: 60%;
+    width: 80%;
+  }
+}
+
+/* =========================== 
+    Register Styles
+   =========================== 
+*/
+.registerContent {
+  @media screen and (max-width: 768px) {
+    height: 100vh;
+  }
+}
+
+.registerCard {
+  height: 75%;
+  width: 20%;
+
+  @media screen and (max-width: 768px) {
+    height: 98%;
+    width: 90%;
+  }
+}
+
+/* =========================== 
+    Forgot Password Styles
+   =========================== 
+*/
+.forgotContent {
+  @media screen and (max-width: 768px) {
+    height: 100vh;
+  }
+}
+
+.forgotCard {
+  height: 40%;
+  width: 20%;
+
+  @media screen and (max-width: 768px) {
+    height: 50%;
+    width: 90%;
+  }
+
+  background-color: #f5f5f542;
+}
