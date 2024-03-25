@@ -29,9 +29,13 @@
   text-decoration: none;
 }
 
+.authLinks:hover {
+  color: #3d708f;
+}
+
 .authForm h2 {
   margin-bottom: 20px;
-  color: #53859f;
+  color: #72a4be;
 }
 
 .authForm form input {
@@ -70,6 +74,12 @@
   border: 2px solid #ffffff;
 }
 
+.authSpan {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
 /* =========================== 
     Login Styles
    =========================== 
@@ -91,16 +101,17 @@
 */
 .registerContent {
   @media screen and (max-width: 768px) {
-    height: 100vh;
+    height: 100%;
   }
 }
 
 .registerCard {
-  height: 75%;
+  min-height: 75%;
+  max-height: 93%;
   width: 20%;
 
   @media screen and (max-width: 768px) {
-    height: 98%;
+    height: 100%;
     width: 90%;
   }
 }
